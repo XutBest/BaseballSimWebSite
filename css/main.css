@@ -462,12 +462,12 @@ body {
 }
  .photosDiv{
     float:left; 
-    width: 400px;
-    height: 305px;
+    width: 500px;
+    height: 375px;
     padding:5px 5px 5px 5px;
 }
  .photos{
-    width: 400px;
-    height: 280px;
+    width: 500px;
+    height: 350px;
 }
 }
