@@ -387,7 +387,7 @@ body {
 @media (max-width: 509px) {
  .youtubeSize {
     width: 100%;
-    height: 300px;
+    height: width 
 }
  .formContact{
     width: 100%;
@@ -396,12 +396,10 @@ body {
  .photosDiv{
     float:left; 
     width:100%; 
-    height:306px; 
     padding:5px 5px 5px 5px;
 }
 .photos{
     width:100%; 
-    height:400px;
 }
 }
 @media (min-width: 510px) and (max-width: 750px) {
@@ -415,13 +413,11 @@ body {
 }
  .photosDiv{
     float:left; 
-    width:400px; 
-    height:306px; 
+    width:50vw;  
     padding:5px 5px 5px 5px;
 }
  .photos{
-    width:555px; 
-    height:400px;
+    width:50vw; 
 }
 }
 
@@ -435,18 +431,17 @@ body {
     width: 400px;
     height: 500px;
     float: right;
+    padding:5px 5px 5px 5px;
     border-style: solid;
     border-width: medium;
 }
  .photosDiv{
     float:left; 
     width:400px; 
-    height:306px; 
     padding:5px 5px 5px 5px;
 }
  .photos{
     width:400px; 
-    height:281px;
 }
 }
 
@@ -461,17 +456,16 @@ body {
     width: 500px;
     height: 500px;
     float: right;
+    padding:5px 5px 5px 5px;
     border-style: solid;
     border-width: medium;
 }
  .photosDiv{
     float:left; 
-    width: 50vw; 
-    height:425px; 
+    width: 50vw;  
     padding:5px 5px 5px 5px;
 }
  .photos{
     width: 50vw;
-    height:400px;
 }
 }
