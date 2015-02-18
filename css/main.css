@@ -391,7 +391,7 @@ body {
 }
  .formContact{
     width: 100%;
-    height: 500px;
+    height: 320px;
 }
  .photosDiv{
     float:left; 
@@ -411,7 +411,7 @@ body {
 }
  .formContact{
     width: 100%;
-    height: 500px;
+    height: 320px;
 }
  .photosDiv{
     float:left; 
@@ -434,7 +434,7 @@ body {
 }
   .formContact{
     width: 400px;
-    height: 500px;
+    height: 320px;
     float: right;
     padding:5px 5px 5px 5px;
     border-style: solid;
@@ -461,7 +461,7 @@ body {
 }
  .formContact{
     width: 500px;
-    height: 500px;
+    height: 320px;
     float: right;
     padding:5px 5px 5px 5px;
     border-style: solid;
@@ -476,5 +476,8 @@ body {
  .photos{
     width: 500px;
     height: 350px;
+}
+ .formContent{
+  width:450px;
 }
 }
