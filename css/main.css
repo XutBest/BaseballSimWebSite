@@ -394,13 +394,13 @@ body {
 }
  .photosDiv{
     float:left; 
-    width:250px;
-    height:200px;
+    width:300px;
+    height:225px;
     padding:5px 5px 5px 5px;
 }
 .photos{
-    width:250px;
-    height:175px; 
+    width:300px;
+    height:210px; 
 }
  .formSize{
     width:calc(100% - 50px);
@@ -422,13 +422,13 @@ body {
 }
  .photosDiv{
     float:left; 
-    width:250px; 
-    height:200px; 
+    width:300px; 
+    height:225px; 
     padding:5px 5px 5px 5px;
 }
  .photos{
-    width:250px;
-    height:175px;
+    width:300px;
+    height:210px;
 
 }
  .formSize{
