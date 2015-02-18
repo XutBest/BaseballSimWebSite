@@ -448,8 +448,8 @@ body {
  @media (min-width: 901px){
  
  .youtubeSize {
-    width: 525px;
-    height: 370px;
+    width: 425px;
+    height: 300px;
     float: right;
 }
  .formContact{
