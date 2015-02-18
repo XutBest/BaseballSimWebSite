@@ -14,16 +14,7 @@
         <meta property="og:url" content="index.html" />
         <meta property="og:site_name" content="BaseballSim" />
 
-        <!-- Twitter Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <!-- Font Awesome (because it's awesome!) -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-        <!-- Our own stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-
         <link rel="icon" href="img/baseball.ico">
-        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
         <!-- Useful tool to detect browser features (degrade gracefully)  -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -44,26 +35,26 @@
                         <span class="icon-bar"></span>
                     </button>
                     <img class="navbar-brand" alt="BaseballSim" src="img/baseball.ico">
-                    <a class="navbar-brand" href="#">BaseballSim</a>
+                    <a class="navbar-brand" href="index.html">BaseballSim</a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#"><i class="fa fa-home"></i> Page d'accueil</a></li>
+                        <li><a href="index.html"><i class="fa fa-home"></i> Page d'accueil</a></li>
                         <li><a href="photos.html"><i class="fa fa-picture-o"></i> Photos</a></li>
-                        <li><a href="manuel.html"><i class="fa fa-book"></i> Manuel</a></li>
+                        <li class="active"><a href="#"><i class="fa fa-book"></i> Manuel</a></li>
                     </ul>
                     <ul class="nav navbar-nav smalldeviceleftright">
                         <div class="g-plusone" data-size="small" data-href="https://plus.google.com/u/0/b/115102565518814759346/"></div>
-
-                        <!-- Placez cette ballise après la dernière balise Bouton +1. -->
                         <script type="text/javascript">
-                          window.___gcfg = {lang: 'fr-CA'};
+                            window.___gcfg = {
+                                lang: 'fr-CA'
+                            };
 
-                          (function() {
-                            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                            po.src = 'https://apis.google.com/js/platform.js';
-                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                          })();
+                            (function() {
+                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                            })();
                         </script>
                     </ul>
                 </div>
@@ -73,11 +64,6 @@
         <div class="container">
             <div class="starter-template">
                 <h1>Manuel</h1>
-                    <form action="//formspree.io/xutlavoie@gmail.com">
-                        <input type="text" name="name">
-                        <input type="email" name="_replyto">
-                        <input type="submit" value="Send">
-                    </form> 
 				    
                     <p>Les instructions pour jouer au jeu de baseball est :</p>
                     <p>Etranges donnerai aux age defiance eux. Maintenant bleuissent nul poussaient oui jet. But pressentit ordonnance renferment compassion rit
@@ -127,8 +113,14 @@
              
                 
             </div>
-        </div><!-- /.container -->
+        </div>
+        <!-- Twitter Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- Font Awesome (because it's awesome!) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+        <!-- Our own stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

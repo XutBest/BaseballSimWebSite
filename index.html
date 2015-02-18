@@ -14,16 +14,7 @@
         <meta property="og:url" content="index.html" />
         <meta property="og:site_name" content="BaseballSim" />
 
-        <!-- Twitter Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <!-- Font Awesome (because it's awesome!) -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-        <!-- Our own stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-
         <link rel="icon" href="img/baseball.ico">
-        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
         <!-- Useful tool to detect browser features (degrade gracefully)  -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -54,16 +45,15 @@
                     </ul>
                     <ul class="nav navbar-nav smalldeviceleftright">
                         <div class="g-plusone" data-size="small" data-href="https://plus.google.com/u/0/b/115102565518814759346/"></div>
-
-                        <!-- Placez cette ballise après la dernière balise Bouton +1. -->
                         <script type="text/javascript">
-                          window.___gcfg = {lang: 'fr-CA'};
-
-                          (function() {
-                            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                            po.src = 'https://apis.google.com/js/platform.js';
-                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                          })();
+                            window.___gcfg = {
+                                lang: 'fr-CA'
+                            };
+                            (function() {
+                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                            })();
                         </script>
                     </ul>
                 </div>
@@ -73,7 +63,7 @@
         <div class="container">
             <div class="starter-template">
                 <h1>Page d'accueil</h1> 
-                    <iframe class="youtubeSize" src="https://www.youtube.com/embed/-YZH604GYgo" frameborder="0"></iframe>
+                    <iframe class="youtubeSize" src="https://www.youtube.com/embed/-YZH604GYgo"></iframe>
 				    
                     <p>Les fonctionnalités de BaseballSim sont :</p>
                     <p>Etranges donnerai aux age defiance eux. Maintenant bleuissent nul poussaient oui jet. But pressentit ordonnance renferment compassion rit
@@ -123,13 +113,20 @@
              
                 
             </div>
-        </div><!-- /.container -->
+        </div>
 
+        <!-- Twitter Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- Font Awesome (because it's awesome!) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <!-- Our own stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-        <!-- Twitter Bootstrap (comment if you you want to start from scratch) -->
+        <!-- Twitter Bootstrap-->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
         <!-- Useful plugins/snippets -->
