@@ -396,10 +396,12 @@ body {
  .photosDiv{
     float:left; 
     width:100%; 
+    height:305px;
     padding:5px 5px 5px 5px;
 }
 .photos{
-    width:100%; 
+    width:100%;
+    height:280px; 
 }
 }
 @media (min-width: 510px) and (max-width: 750px) {
@@ -413,11 +415,14 @@ body {
 }
  .photosDiv{
     float:left; 
-    width:50vw;  
+    width:300px; 
+    height:235px; 
     padding:5px 5px 5px 5px;
 }
  .photos{
-    width:50vw; 
+    width:300px;
+    height:210px;
+
 }
 }
 
@@ -438,10 +443,12 @@ body {
  .photosDiv{
     float:left; 
     width:400px; 
+    height:305px; 
     padding:5px 5px 5px 5px;
 }
  .photos{
-    width:400px; 
+    width:400px;
+    height: 280px; 
 }
 }
 
