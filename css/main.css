@@ -386,8 +386,8 @@ body {
 }
 @media (max-width: 509px) {
  .youtubeSize {
-    width: 100%;
-    height: width 
+    width: 400px;
+    height: 280px;
 }
  .formContact{
     width: 100%;
@@ -404,8 +404,8 @@ body {
 }
 @media (min-width: 510px) and (max-width: 750px) {
  .youtubeSize {
-    width: 100%;
-    height: 500px;
+    width: 500px;
+    height: 350px;
 }
  .formContact{
     width: 100%;
@@ -423,8 +423,8 @@ body {
 
  @media (min-width: 751px) and (max-width: 900px){
  .youtubeSize {
-    width: 400px;
-    height: 400px;
+    width: 425px;
+    height: 300px;
 	  float: right;
 }
   .formContact{
@@ -448,8 +448,8 @@ body {
  @media (min-width: 901px){
  
  .youtubeSize {
-    width: 500px;
-    height: 450px;
+    width: 525px;
+    height: 370px;
     float: right;
 }
  .formContact{
