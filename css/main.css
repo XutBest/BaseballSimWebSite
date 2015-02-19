@@ -101,21 +101,6 @@ body {
   padding-top: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -306,7 +291,13 @@ body {
     }
 }
 
-@media (max-width: 750px) {
+/* ==========================================================================
+   Google + button
+   Quand le bouton est en mode mobile, il doit être affiché à gauche
+   Quand le bouton est en mode desktop, il doit être affiché à extrême droite
+   ========================================================================== */
+
+@media (max-width: 767px) {
  .smalldeviceleftright {
     margin-top: 0;
     margin-left: 1px;
@@ -314,12 +305,17 @@ body {
 }
 }
 
- @media (min-width: 751px) {
+ @media (min-width: 768px) {
  .smalldeviceleftright {
     margin-top: 20px;
     float: right;
 }
 }
+
+/* ==========================================================================
+   Modify Bootstrap theme for menu
+   Blue and black
+   ========================================================================== */
 
 .navbar-inverse {
   background-color: #02058a;
@@ -381,38 +377,49 @@ body {
   }
 }
 
-.inblock{
-  display: inline-block;
-}
+
+/* ==========================================================================
+   Small device (mobile, small tablet)
+   ========================================================================== */
+
 @media (max-width: 509px) {
+/* Changer la grosseur du vidéo Youtube*/
  .youtubeSize {
     width: 100%;
     height: 300px; 
 }
+/* Grandeur du formulaire et du logo de BaseballSim*/
  .formContact{
     width: 100%;
     height: 320px;
     display: table-footer-group;
 }
+/* Photo et description*/
  .photosDiv{
     float:left; 
     width:300px;
     height:235px;
     padding:5px 5px 5px 5px;
 }
+/* Largeur et hauteur d'une photo*/
 .photos{
     width:300px;
     height:210px; 
 }
+/* Largeur de courriel et de message */
  .formSize{
     width:calc(100% - 50px);
 }
+/* Texte de Manuel pour le mettre au dessus du formulaire et logo */
  .textMobile{
  	display: table-header-group;
  }
 }
 
-@media (min-width: 510px) and (max-width: 750px) {
+/* ==========================================================================
+   Small-Medium device (bigger tablet, half-sized desktop screen)
+   ========================================================================== */
+@media (min-width: 510px) and (max-width: 767px) {
  .youtubeSize {
     width: 100%;
     height: 400px;
@@ -438,11 +445,13 @@ body {
 }
 .textMobile{
  	display: table-header-group;
-	
-}
-}
 
- @media (min-width: 751px) and (max-width: 900px){
+}
+}
+/* ==========================================================================
+   Medium device (small desktop screen)
+   ========================================================================== */
+ @media (min-width: 768px) and (max-width: 900px){
  .youtubeSize {
     width: 425px;
     height: 350px;
@@ -471,7 +480,9 @@ body {
   width:350px;
 }
 }
-
+/* ==========================================================================
+   Big device (full screen desktop screen)
+   ========================================================================== */
  @media (min-width: 901px){
  
  .youtubeSize {
